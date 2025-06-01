@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Your Name</span>
+                </h1>
+                <p class="hero-subtitle">Senior Software Engineer</p>
+                <p class="hero-description">
+                    Experienced Software Engineer with 3+ years at leading tech companies like Apple and Intel. 
+                    Specializing in distributed systems, data engineering, backend development, and ML compilers.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn btn-primary">View Experience</a>
+                    <a href="/resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">FAANG Companies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Publications</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-placeholder">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Software Engineer with over 3 years of experience building 
+                        scalable systems at top-tier technology companies. My expertise spans distributed 
+                        systems architecture, data engineering pipelines, and high-performance backend services.
+                    </p>
+                    <p>
+                        During my tenure at Apple, I worked on large-scale distributed systems handling 
+                        millions of requests, while at Intel, I focused on optimizing ML compilers for 
+                        next-generation hardware. I'm driven by solving complex technical challenges 
+                        and building systems that impact millions of users.
+                    </p>
+                    <div class="certifications">
+                        <h4>Certifications & Achievements</h4>
+                        <ul>
+                            <li>AWS Certified Solutions Architect</li>
+                            <li>Google Cloud Professional Data Engineer</li>
+                            <li>Published researcher in ML systems</li>
+                            <li>Speaker at tech conferences</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <h3>Key Expertise</h3>
+                    <div class="expertise-item">
+                        <i class="fas fa-network-wired"></i>
+                        <div>
+                            <h4>Distributed Systems</h4>
+                            <p>Designing and implementing large-scale distributed architectures with high availability and fault tolerance</p>
+                        </div>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-database"></i>
+                        <div>
+                            <h4>Data Engineering</h4>
+                            <p>Building robust data pipelines and ETL processes handling petabytes of data</p>
+                        </div>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-server"></i>
+                        <div>
+                            <h4>Backend Development</h4>
+                            <p>Creating high-performance APIs and microservices with optimal scalability</p>
+                        </div>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-brain"></i>
+                        <div>
+                            <h4>ML Compilers</h4>
+                            <p>Optimizing machine learning workloads and compiler design for specialized hardware</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <!-- Current/Recent Role -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <h3>Machine Learning Compiler Engineer</h3>
+                                <h4><i class="fas fa-building"></i> Intel Corporation</h4>
+                                <p class="duration"><i class="far fa-calendar"></i> 2023 - Present</p>
+                            </div>
+                            <div class="company-logo">
+                                <i class="fab fa-intel"></i>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>Leading compiler optimization efforts for Intel's next-generation AI accelerators, focusing on performance improvements and power efficiency.</p>
+                            <ul class="achievements">
+                                <li>Improved ML workload performance by 35% through advanced compiler optimizations</li>
+                                <li>Designed and implemented graph optimization passes for deep learning models</li>
+                                <li>Collaborated with hardware teams to optimize compiler backend for new architectures</li>
+                                <li>Mentored junior engineers and led technical design reviews</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">MLIR</span>
+                                <span class="tech-tag">LLVM</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">PyTorch</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apple Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <h3>Software Engineer - Distributed Systems</h3>
+                                <h4><i class="fas fa-building"></i> Apple Inc.</h4>
+                                <p class="duration"><i class="far fa-calendar"></i> 2021 - 2023 • 2 years</p>
+                            </div>
+                            <div class="company-logo">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>Developed and maintained large-scale distributed systems and data engineering pipelines supporting Apple's ecosystem services.</p>
+                            <ul class="achievements">
+                                <li>Built distributed data processing systems handling 10M+ requests per day</li>
+                                <li>Designed fault-tolerant microservices architecture reducing downtime by 99.9%</li>
+                                <li>Implemented real-time data pipelines processing TB-scale data daily</li>
+                                <li>Optimized backend systems improving response time by 60%</li>
+                                <li>Led cross-functional projects with iOS and macOS teams</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Scala</span>
+                                <span class="tech-tag">Apache Kafka</span>
+                                <span class="tech-tag">Apache Spark</span>
+                                <span class="tech-tag">Kubernetes</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Redis</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <h3>Software Engineering Intern</h3>
+                                <h4><i class="fas fa-building"></i> Google</h4>
+                                <p class="duration"><i class="far fa-calendar"></i> Summer 2020</p>
+                            </div>
+                            <div class="company-logo">
+                                <i class="fab fa-google"></i>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>Worked on Google Cloud Platform's data analytics infrastructure team, focusing on query optimization and performance improvements.</p>
+                            <ul class="achievements">
+                                <li>Optimized BigQuery query execution engine improving performance by 25%</li>
+                                <li>Implemented caching mechanisms for frequently accessed data</li>
+                                <li>Contributed to open-source Apache Beam project</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Go</span>
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">BigQuery</span>
+                                <span class="tech-tag">Apache Beam</span>
+                                <span class="tech-tag">GCP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <h3>Data Engineering Intern</h3>
+                                <h4><i class="fas fa-building"></i> Microsoft</h4>
+                                <p class="duration"><i class="far fa-calendar"></i> Summer 2019</p>
+                            </div>
+                            <div class="company-logo">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>Developed data pipelines for Azure's machine learning platform, focusing on automated model training and deployment.</p>
+                            <ul class="achievements">
+                                <li>Built automated ML pipeline reducing model deployment time by 70%</li>
+                                <li>Implemented data validation and monitoring systems</li>
+                                <li>Created reusable components for ML model lifecycle management</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Azure ML</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">MLOps</span>
+                                <span class="tech-tag">SQL Server</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications & Research</h2>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="publication-venue">
+                            <span class="venue-name">ASPLOS 2024</span>
+                            <span class="venue-type">Conference Paper</span>
+                        </div>
+                    </div>
+                    <h3>Optimizing Deep Learning Workloads on Heterogeneous Hardware</h3>
+                    <p class="authors"><strong>Your Name</strong>, Co-Author 1, Co-Author 2</p>
+                    <p class="abstract">
+                        This paper presents novel optimization techniques for executing deep learning workloads 
+                        across heterogeneous computing environments, achieving 40% performance improvement...
+                    </p>
+                    <div class="publication-links">
+                        <a href="#" class="pub-link"><i class="fas fa-external-link-alt"></i> Paper</a>
+                        <a href="#" class="pub-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="pub-link"><i class="fas fa-quote-left"></i> Citation</a>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="publication-venue">
+                            <span class="venue-name">SIGMOD 2023</span>
+                            <span class="venue-type">Conference Paper</span>
+                        </div>
+                    </div>
+                    <h3>Scalable Real-time Data Processing with Adaptive Stream Processing</h3>
+                    <p class="authors"><strong>Your Name</strong>, Senior Author, Co-Author 3</p>
+                    <p class="abstract">
+                        We introduce an adaptive stream processing framework that automatically adjusts 
+                        to varying data loads while maintaining low latency and high throughput...
+                    </p>
+                    <div class="publication-links">
+                        <a href="#" class="pub-link"><i class="fas fa-external-link-alt"></i> Paper</a>
+                        <a href="#" class="pub-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="pub-link"><i class="fas fa-quote-left"></i> Citation</a>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="publication-venue">
+                            <span class="venue-name">ICML 2023</span>
+                            <span class="venue-type">Workshop Paper</span>
+                        </div>
+                    </div>
+                    <h3>Compiler Optimizations for Edge AI: A Systematic Study</h3>
+                    <p class="authors">Co-Author 1, <strong>Your Name</strong>, Senior Researcher</p>
+                    <p class="abstract">
+                        A comprehensive analysis of compiler optimization techniques for deploying 
+                        AI models on resource-constrained edge devices...
+                    </p>
+                    <div class="publication-links">
+                        <a href="#" class="pub-link"><i class="fas fa-external-link-alt"></i> Paper</a>
+                        <a href="#" class="pub-link"><i class="fas fa-quote-left"></i> Citation</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="research-stats">
+                <div class="research-stat">
+                    <h3>150+</h3>
+                    <p>Citations</p>
+                </div>
+                <div class="research-stat">
+                    <h3>5</h3>
+                    <p>Publications</p>
+                </div>
+                <div class="research-stat">
+                    <h3>3</h3>
+                    <p>Conference Talks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Distributed Cache System</h3>
+                        <p>High-performance distributed caching system with consistent hashing and fault tolerance</p>
+                        <div class="project-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">Redis</span>
+                            <span class="tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ML Compiler Framework</h3>
+                        <p>Open-source compiler framework for optimizing neural networks on custom hardware</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">LLVM</span>
+                            <span class="tag">MLIR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-stream"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-time Analytics Platform</h3>
+                        <p>Scalable platform for real-time data analytics processing millions of events per second</p>
+                        <div class="project-tags">
+                            <span class="tag">Apache Kafka</span>
+                            <span class="tag">Apache Spark</span>
+                            <span class="tag">Scala</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">C++</span>
+                        <span class="skill-tag expert">Java</span>
+                        <span class="skill-tag expert">Python</span>
+                        <span class="skill-tag advanced">Go</span>
+                        <span class="skill-tag advanced">Scala</span>
+                        <span class="skill-tag intermediate">Rust</span>
+                        <span class="skill-tag intermediate">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Distributed Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">Apache Kafka</span>
+                        <span class="skill-tag expert">Apache Spark</span>
+                        <span class="skill-tag expert">Kubernetes</span>
+                        <span class="skill-tag advanced">Apache Flink</span>
+                        <span class="skill-tag advanced">Consul</span>
+                        <span class="skill-tag advanced">Istio</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data & Storage</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">PostgreSQL</span>
+                        <span class="skill-tag expert">Redis</span>
+                        <span class="skill-tag expert">MongoDB</span>
+                        <span class="skill-tag advanced">Cassandra</span>
+                        <span class="skill-tag advanced">ClickHouse</span>
+                        <span class="skill-tag intermediate">Neo4j</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">AWS</span>
+                        <span class="skill-tag advanced">GCP</span>
+                        <span class="skill-tag advanced">Docker</span>
+                        <span class="skill-tag advanced">Terraform</span>
+                        <span class="skill-tag intermediate">Azure</span>
+                        <span class="skill-tag intermediate">Jenkins</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> ML & AI Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">TensorFlow</span>
+                        <span class="skill-tag expert">PyTorch</span>
+                        <span class="skill-tag advanced">LLVM</span>
+                        <span class="skill-tag advanced">MLIR</span>
+                        <span class="skill-tag advanced">CUDA</span>
+                        <span class="skill-tag intermediate">TensorRT</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">Git</span>
+                        <span class="skill-tag expert">Linux</span>
+                        <span class="skill-tag advanced">gRPC</span>
+                        <span class="skill-tag advanced">Protocol Buffers</span>
+                        <span class="skill-tag advanced">Grafana</span>
+                        <span class="skill-tag intermediate">Prometheus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Open for Opportunities</h3>
+                    <p>I'm always interested in discussing new opportunities, challenging projects, 
+                       or collaborations in distributed systems, data engineering, and ML systems. 
+                       Let's connect and explore how we can work together!</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:your.email@example.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="tel:+1234567890" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (234) 567-890</span>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco Bay Area</span>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" name="company" placeholder="Company (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <p>Senior Software Engineer • Distributed Systems • ML Compilers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
